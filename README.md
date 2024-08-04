@@ -49,7 +49,7 @@ module.exports = {
     // your another applications
     {
       name: 'pm2-admin',
-      script: 'vendor/faustoff/laravel-pm2-admin/server.js',
+      script: 'vendor/faustoff/laravel-pm2-admin/dist/index.js',
       instances: 1,
       exec_mode: 'fork',
     }
