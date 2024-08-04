@@ -23,7 +23,7 @@ class Pm2AdminServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../config/pm2-admin.php' => config_path('pm2-admin.php'),
-        ]);
+        ], 'pm2-admin-config');
 
         $this->publishes([
             __DIR__ . '/../public' => public_path('vendor/pm2-admin'),

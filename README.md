@@ -20,6 +20,10 @@ To auto update `assets` on package update add to `composer.json`:
 }
 ```
 
+Publish `config`:
+
+`php artisan vendor:publish --tag=pm2-admin-config`
+
 ## Authorization
 
 The PM2 Admin dashboard may be accessed via the `/pm2` route. By default, you will only be able to access this dashboard in the local environment. To access dashboard in the non-local environment you should define `viewPm2Admin` authorization gate in you application service provider, for example:
