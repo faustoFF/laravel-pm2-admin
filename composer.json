@@ -1,0 +1,30 @@
+{
+    "name": "faustoff/laravel-pm2-admin",
+    "description": "Provides dashboard to manage PM2 applications such as start/restart/stop/list",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faustoff\\LaravelPm2Admin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "faustoFF",
+            "email": "kulakov89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/routing": "^9.0|^10.0|^11.0",
+        "illuminate/validation": "^9.0|^10.0|^11.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Faustoff\\LaravelPm2Admin\\Pm2AdminServiceProvider"
+            ]
+        }
+    }
+}
