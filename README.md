@@ -1,3 +1,8 @@
+[![Packagist Version](https://img.shields.io/packagist/v/faustoff/laravel-pm2-admin?style=for-the-badge)](https://packagist.org/packages/faustoff/laravel-pm2-admin)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/faustoff/laravel-pm2-admin?style=for-the-badge)](https://packagist.org/packages/faustoff/laravel-pm2-admin)
+[![Packagist License](https://img.shields.io/packagist/l/faustoff/laravel-pm2-admin?style=for-the-badge)](https://github.com/faustoff/laravel-pm2-admin/blob/master/LICENSE)
+[![GitHub Repo stars](https://img.shields.io/github/stars/faustoff/laravel-pm2-admin?style=for-the-badge)](https://github.com/faustoff/laravel-pm2-admin)
+
 # laravel-pm2-admin
 
 > Provides dashboard to manage PM2 applications such as start/restart/stop/list.
